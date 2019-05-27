@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <title>Evaluacion Final Educacion</title>
+</head>
+<body bgcolor="#F2F2F2">
+  <header>
+      <img src="imagen/logo.svg" alt="Logo">
+  </header>
+  <section>
+      <h1 style="color:#0B0B3B">Curriculum Vitae</h1>
+      <h2 style="color:#610B0B">Nombre:</h2>
+      <h3><em>Raul Antonio Cordova Pacheco</em></h3>
+      <h2 style="color:#610B0B">Lugar y fecha de Nacimiento:</h2>
+      <h3><em>Tijuana, B.C.  24 de Julio de 1984</em></h3>
+  </section>
+  <nav>
+    <a href="index.html"> Principal</a> |
+    <a href="educacion.html"> Educacion</a> |
+    <a href="experiencia.html"> Experiencia</a>
+  </nav>
+  <section>
+    <h2>Educacion</h2>
+      <table border="2", cellpadding="10", cellspacing="0">
+        <thead>
+          <th>Año</th>
+          <th>Institucion</th>
+          <th>Carrera</th>
+          <th>Lugar</th>
+          <th>Culmino</th>
+        </thead>
+        <tbody>
+          <td>2001</td>
+          <td>Politecnico de Baja California</td>
+          <td>Bachillerato en Computacion</td>
+          <td>Tijuana, B.C.</td>
+          <td>Si</td>
+        </tbody>
+        <tbody>
+          <td>2003</td>
+          <td>Universidad Tecnologica de Tijuana</td>
+          <td>T.S.U. en Electronica</td>
+          <td>Tijuana, B.C.</td>
+          <td>No</td>
+        </tbody>
+      </table>
+  </section>
+  <section><br>
+    <form>
+      <h3>Agregar Estudios</h3>
+      <p>
+        <label for="año">Año</label>
+          <select name="año">
+            <option value="1">2001</option>
+            <option value="1">2002</option>
+            <option value="1">2003</option>
+            <option value="1">2004</option>
+            <option value="1">2005</option>
+            <option value="1">2006</option>
+          </select>
+      </p>
+      <p>
+        <label for="Institucion">Institucion: </label>
+        <input type="text" name="Institucion" placeholder="ej.UABC" required>
+      </p>
+      <p>
+        <label for="carrera">Carrera: </label>
+        <input type="text" name="carrera" placeholder="ej. T.S.U. electronica" required>
+      </p>
+      <p>
+        <label for="lugar">Lugar: </label>
+        <textarea name="lugar" rows="2" cols="40" label placeholder="Ej. Tijuana" required></textarea>
+      </p>
+      <p>
+        <label for="culmino">Culmino:</label><br>
+        <input type="radio" name="culmino" required>Si
+        <input type="radio" name="culmino" required>No
+      </p>
+      <p>
+        <input type="submit" value="Enviar">
+      </p>
+    </form>
+  </section>
+  <footer>
+    <p>
+      Informacion adicional:<br/>
+      correo electronico: <strong>cordovaan.15@gmail.com </strong><br/>
+      Telefono de contacto: <strong>(664) 338 45 03</strong>
+    </p>
+  </footer>
+</body>
+</html>
